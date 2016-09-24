@@ -1,0 +1,28 @@
+body
+{
+background-size:100%;
+}
+h1
+{
+color:white;
+}
+li
+{
+color:Green;
+font-size: 20px;
+}
+a:hover {
+color: red;
+text-decoration:none;
+}
+h2{
+color:Green;
+text-decoration:blink;
+}
+p
+{
+color:Red;
+}
+i{
+color:Red;
+}

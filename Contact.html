@@ -1,0 +1,38 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> align="center" Contact </title>
+</head>
+
+<body background="Contt.jpg" height=10% width=10%>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="A01Cheekolu.html">Home</a></li>
+       <li><a href="RunRate_Calculator.html">Runrate Calculator</a></li> 
+      <li><a href="Cricket_Ground.html">Cricket_Ground</a></li> 
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<h2> AA -- Always Available </h2>
+<i><h3> GET IN TOUCH </h3></i>
+<form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+  <br />
+  Mobile: <input type='text' name='Mobile' id='Mobile' /><br />
+<br>
+  Email: <input type='text' name='email' id='email' /><br />
+  <br />
+  Comment:<br />
+  <textarea name='comment' id='comment'></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' /><br>
+<img src = "Varun2.jpg" align="right" height=40% width=20%>
+<a href="submit.html">Submit</a>
+</form>
+</html>

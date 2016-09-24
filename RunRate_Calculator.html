@@ -1,0 +1,47 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> Personal Page </title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body background="runrate.jpg" height=100% width=100%>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="A01Cheekolu.html">Home</a></li>
+       <li><a href="RunRate_Calculator.html">Runrate Calculator</a></li> 
+      <li><a href="Cricket_Ground.html">Cricket_Ground</a></li> 
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<h1> Run Rate Calculator </h1>
+
+<form method='post'>
+  Enter number of Runs: <input type='text' name='name' id='name' /><br />
+  <br />
+  Enter number of overs: <input type='text' name='email' id='email' /><br />
+  <br />
+  <a href="submit.html">Submit</a><br><br><br>
+  Runrate: <input type='text' name='email' id='email' /><br />
+  <br />
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' /><br>
+<div "style=float:right">
+<img src = "calculatorimage.jpg" align="right" height=30% width=20%>
+</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bMksU6qwOps" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
